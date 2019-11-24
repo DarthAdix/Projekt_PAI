@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: pink;
+}
+
+.jumbotron {
+  background: lightblue;
+}
+
+#logo-navbar {
+  height: 40px;
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+.fa-angle-right {
+  color: white;
+}
+
+.fa-angle-up {
+  color: white;
+}
+
+footer.container-fluid {
+  background: grey;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
+}
