@@ -8,6 +8,8 @@
 
 <?php include 'navbar.php' ?>
 
+<?php include 'logo-header.html' ?>
+
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-4">
@@ -49,8 +51,6 @@
   </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
-</div>
+<?php include 'footer.html' ?>
 
 </body>

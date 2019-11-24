@@ -8,9 +8,11 @@
 
 <?php include 'navbar.php' ?>
 
-<div class="jumbotron text-center">
-    <img src="logo3.png" alt="SG" width="200">
-  <h1>Strzelnica Gdańsk</h1> 
+<?php include 'logo-header.html' ?>
+
+<div class="container">
+	<h2>CENNIK</h2>
+	<h4>Przygotowaliśmy dla Państwa pakiety tematyczne z odpowiednimi rodzajami broni, możliwy jest także własny wybór broni i ilości strzałów - cennik <a href="#cennikIndywidualny"> poniżej</a></h4>
 </div>
 
 <div class="container">
@@ -48,7 +50,7 @@
       </ul>
       <hr class="d-sm-none">
     </div>
-    <div class="col-sm-8">
+    <div id="cennikIndywidualny" class="col-sm-8">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2017</h5>
       <div class="fakeimg">Fake Image</div>
@@ -90,11 +92,6 @@
   </div>
 </div>
 
-<footer class="container-fluid text-center">
-  <a href="#top" title="To Top">
-    <span class="fa fa-angle-up fa-3x"></span>
-  </a>
-  <p>Copyright &copy <a href="mailto: admin@strzelectwo.cba.pl" style="color: #fff;">Adam Kowalczyk</a> 2019</p>
-</footer>
+<?php include 'footer.html' ?>
 
 </body>

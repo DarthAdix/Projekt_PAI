@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="pl" id="top">
 <head>
-  <title>Strzelnica Gdańsk</title>
+  <title>Strzelnica ORZEŁ</title>
   <?php include 'header.html' ?>
 </head>
 <body>
 
 <?php include 'navbar.php' ?>
 
-<div class="jumbotron text-center">
-    <img src="logo3.png" alt="SG" width="200">
-  <h1>Strzelnica Gdańsk</h1> 
-</div>
+<?php include 'logo-header.html' ?>
 
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
-      <h2>WITAMY NA STRONIE STRZELNICY GDAŃSK</h2><br>
+      <h2>WITAMY NA STRONIE STRZELNICY ORZEŁ</h2><br>
       <h4><strong>Strzelnica Gdańsk</strong> posiada jeden z największych arsenałów broni w Polsce. Istniejemy od asiao sifoab oauso awho ashdo ashdo asdh aoshdoaishoad </h4><br>
     </div>
     <div class="col-sm-4">
@@ -33,13 +30,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="falcon1.jpg" style="height: 500px;" alt=".1.">
+        <img src="falcon1.jpg" style="width: 75%; min-width: 300px;" alt=".1.">
       </div>
       <div class="carousel-item">
-        <img src="falcon2.jpg" style="height: 500px;" alt=".2.">
+        <img src="falcon2.jpg" style="width: 75%; min-width: 300px;" alt=".2.">
       </div>
       <div class="carousel-item">
-        <img src="ss.jpg" style="height: 500px;" alt=".3.">
+        <img src="ss.jpg" style="width: 75%; min-width: 300px;" alt=".3.">
       </div>
       <a class="carousel-control-prev" href="#carousel-gallery" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
@@ -121,11 +118,5 @@
   </div>
 </div>
 
-<footer class="container-fluid text-center">
-  <a href="#top" title="To Top">
-    <span class="fa fa-angle-up fa-3x"></span>
-  </a>
-  <p>Copyright &copy <a href="mailto: admin@strzelectwo.cba.pl" style="color: #fff;">Adam Kowalczyk</a> 2019</p>
-</footer>
-
+<?php include 'footer.html' ?>
 </body>
