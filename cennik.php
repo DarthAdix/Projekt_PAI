@@ -14,17 +14,35 @@
 	<h2>CENNIK</h2>
 	<h4>Przygotowaliśmy dla Państwa pakiety tematyczne z odpowiednimi rodzajami broni, możliwy jest także własny wybór broni i ilości strzałów - cennik <a href="#cennikIndywidualny"> poniżej</a></h4>
 </div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2>O NAS</h2><br>
-      <h4><strong>Strzelnica Gdańsk</strong> to organizacja zrzeszająca studentów, którzy oprócz trudu studiów, chcą dowiedzieć się czegoś więcej. 
-          Koło naukowe to przede wszystkim dostęp do aparatury laboratoryjnej będącej w posiadaniu Politechniki Gdańskiej oraz pomocy ze strony starszych i  bardziej doświadczonych kolegów. Formalnie istniejemy od <strong>2000</strong> roku!
-        </h4><br>
-    </div>
-  </div>
+<br>
+<div class="container"> 
+	<h2>PAKIETY</h2>
+	<div class="container">
+	    <div id="accordion" class="accordion">
+	        <div class="card mb-0">
+	            <div class="card-header" data-toggle="collapse" href="#collapseOne">
+	                <h4><a class="card-title"> ARMIA CZERWONA </a></h4>
+	            </div>
+	            <div id="collapseOne" class="card-body collapse" data-parent="#accordion">
+	                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+	            </div>
+	            <div class="card-header" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+	                <h4><a class="card-title"> BLITZKRIEG </a></h4>
+	            </div>
+	            <div id="collapseTwo" class="card-body collapse" data-parent="#accordion">
+	                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+	            </div>
+	            <div class="card-header" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+	                <h4><a class="card-title"> US ARMY </a></h4>
+	            </div>
+	            <div id="collapseThree" class="collapse" data-parent="#accordion">
+	                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS. </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
 </div>
+
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-4">

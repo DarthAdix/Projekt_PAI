@@ -17,7 +17,7 @@
       <h4><strong>Strzelnica Gdańsk</strong> posiada jeden z największych arsenałów broni w Polsce. Istniejemy od asiao sifoab oauso awho ashdo ashdo asdh aoshdoaishoad </h4><br>
     </div>
     <div class="col-sm-4">
-      <img src="rifle.png" width="100%">
+      <img src="img/rifle.png" width="100%">
     </div>
   </div>
 </div>
@@ -30,13 +30,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="falcon1.jpg" style="width: 75%; min-width: 300px;" alt=".1.">
+        <img src="img/falcon1.jpg" style="width: 80%; min-width: 300px;" alt=".1.">
       </div>
       <div class="carousel-item">
-        <img src="falcon2.jpg" style="width: 75%; min-width: 300px;" alt=".2.">
+        <img src="img/falcon2.jpg" style="width: 80%; min-width: 300px;" alt=".2.">
       </div>
       <div class="carousel-item">
-        <img src="ss.jpg" style="width: 75%; min-width: 300px;" alt=".3.">
+        <img src="img/ss.jpg" style="width: 80%; min-width: 300px;" alt=".3.">
       </div>
       <a class="carousel-control-prev" href="#carousel-gallery" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
