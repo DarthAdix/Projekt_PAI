@@ -10,46 +10,20 @@
 
 <?php include 'logo-header.html' ?>
 
-<div class="container" style="margin-top:30px">
-  <div class="row">
-    <div class="col-sm-4">
-      <h2>About Me <span class="glyphicon glyphicon-asterisk"></span></h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3>Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-    </div>
-    <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-  </div>
-</div>
+<form action="zapisz_uzbrojenie.php" method="post">
+<div class="container">
+          <div class="row">
+          <div class="col-lg-2"><h4>Id</h4><input size="2" type="int" name="id" value=' . $row['id'] . ' /></div>
+          <div class="col-lg-2"><h4>Kat.</h4><input size="2" type="int" name="kategoria_id" value=' . $row['kategoria_id'] . ' /></div>
+          <div class="col-lg-3"><h4>Nazwa</h4><textarea name="opis" rows="1" cols="25" placeholder="opis">' . $row['nazwa'] . '</textarea></div>
+          <div class="col-lg-5"><h4>Opis</h4><textarea name="opis" rows="5" cols="50" placeholder="opis">' . $row['opis'] . '</textarea></div>
+          <div class="col-md-3"><h4>Obrazek</h4><input size="20" type="text" name="img" value=' . $row['img'] . ' /></div>
+          <div class="col-md-3"><h4>Kaliber</h4><textarea name="opis" rows="1" cols="20" placeholder="kal.">' . $row['kaliber'] . ' </textarea></div>
+          <div class="col-md-3"><h4>Pojemność</h4><input size="4" type="int" name="pojemnosc" value=' . $row['pojemnosc'] . ' /></div>
+          <div class="col-md-12" style="margin-top: 20px;"><button type="submit" value="' . $row['id'] . '" name="id">Zapisz</button></div>
+          </div>
+          </div>
+        </form>
 
 <?php include 'footer.html' ?>
 

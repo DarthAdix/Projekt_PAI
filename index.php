@@ -20,11 +20,11 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-md-8">
       <h2>WITAMY NA STRONIE STRZELNICY ORZEŁ</h2><br>
       <h4><strong>Strzelnica Gdańsk</strong> posiada jeden z największych arsenałów broni w Polsce. Istniejemy od asiao sifoab oauso awho ashdo ashdo asdh aoshdoaishoad </h4><br>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
       <img src="img/rifle.png" width="100%">
     </div>
   </div>

@@ -42,7 +42,10 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="kontakt.php">Kontakt</a>
-      </li>    
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link" href="edycja_uzbrojenia.php">Edycja uzbrojenia</a>
+      </li>   
     </ul>
     <ul class="navbar-nav navbar-right">
       <li class="nav-item"><a class="nav-link" href="logout.php"><span class="fa fa-angle-right"></span> Logout</a></li>
