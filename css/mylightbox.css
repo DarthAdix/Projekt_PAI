@@ -1,42 +1,30 @@
-
-
-/* Style the Image Used to Trigger the Modal */
-img.myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-img.myImg:hover {opacity: 0.7;}
-
 img.bron {
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 img.bron:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 /* Modal Content (Image) */
-#lightbox img {
+#lightbox-image img {
   margin: auto;
   display: block;
-  width: 40%;
+  width: 100%;
   max-width: 1000px;
 }
 
-#lightbox div {
+#lightbox-caption {
   margin: auto;
-  width: 40%;
-  padding-left: 5px;
+  padding-left: 10px;
   display: block;
   text-align: left;
   color: white;
 }
 
 /* Add Animation - Zoom in the Modal */
-#lightbox img, #lightbox div {
+#lightbox img, #lightbox div, #close-button {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
@@ -67,4 +55,22 @@ img.bron:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#close-button {
+  position: fixed;
+  z-index: 1050;
+  top: 230px;
+  left: 900px;
+  color: grey;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#close-button:hover,
+#close-button:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }

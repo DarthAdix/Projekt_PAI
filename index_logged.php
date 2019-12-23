@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="pl" id="top">
 <head>
-  <title>Strzelnica Gdańsk</title>
+  <title>Strzelnica ORZEŁ</title>
   <?php include 'header.html' ?>
 </head>
 <body>
 
-<?php include 'navbar_check.php' ?>
+<?php include 'navbar_logged.php' ?>
 
 <?php include 'logo-header.html' ?>
 
-<div class="container">
-  <h2>OFERTA</h2>
-  <h3>Wypożyczalnia broni</h3>
-  <p>Naszą strzelnicę możesz odwiedzić z własnym sprzętem lub wypożyczyć broń na miejscu. Obsługa doradzi ci, który model będzie dla ciebie najodpowiedniejszy. Posiadamy jedną z najbogatszych w Polsce ofert. Długoletnia praktyka pozwoliła nam na zgromadzenie najbardziej niezawodnych modeli broni do twojej dyspozycji.</p>
-  <br>
-  <h3>Przygotowanie do zawodów lub egzaminów strzeleckich</h3>
-  <p>Nasza strzelnica sportowa to doskonałe miejsce do przygotowania się do zawodów lub egzaminów strzeleckich. Po pierwsze będziesz mógł skorzystać z pomocy doświadczonych instruktorów, którzy podwyższą poziom twoich umiejętności i wzbogacą twoją wiedzę. Na miejscu mogą przeprowadzić szkolenie strzelania z broni palnej. Po drugie przygotowaliśmy dla ciebie atrakcyjne pakiety, dzięki którym będziesz mógł korzystać z nauki strzelania za bardzo korzystną cenę. Każdy znajdzie u nas coś dla siebie. Wszystkich pasjonatów zapraszamy na szkolenie strzelania z broni palnej, a także do naszego klubu strzeleckiego.</p>
-  <br>
-  <h3>Imprezy na strzelnicy</h3>
-  <p>Strzelnica ORZEŁ w Gdańsku to nie tylko nauka, kursy, egzaminy i szkolenia, to także cała masa niezłej rozrywki. Razem z nami zorganizujesz niezapomnianą imprezę. Wieczory kawalerskie oraz panieńskie, urodziny, imieniny i inne imprezy okolicznościowe dzięki nam będą jedyne w swoim rodzaju. W przypadku grup zorganizowanych przeprowadzamy naukę strzelania z broni w niezwykle rozrywkowej formie. Przekonaj się, że strzelanie z broni może być świetną zabawą.
-
-</p>
-</div>
+<?php include 'login_check.php' ?>
 
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
-      <h2>O NAS</h2><br>
-      <h4><strong>Strzelnica Gdańsk</strong> to organizacja zrzeszająca studentów, którzy oprócz trudu studiów, chcą dowiedzieć się czegoś więcej. 
-          Koło naukowe to przede wszystkim dostęp do aparatury laboratoryjnej będącej w posiadaniu Politechniki Gdańskiej oraz pomocy ze strony starszych i  bardziej doświadczonych kolegów. Formalnie istniejemy od <strong>2000</strong> roku!
-        </h4><br>
+      <h2>WITAMY NA STRONIE STRZELNICY ORZEŁ</h2><br>
+      <h4><strong>Strzelnica Gdańsk</strong> posiada jeden z największych arsenałów broni w Polsce. Istniejemy od asiao sifoab oauso awho ashdo ashdo asdh aoshdoaishoad </h4><br>
+    </div>
+    <div class="col-sm-4">
+      <img src="img/rifle.png" width="100%">
     </div>
   </div>
 </div>
+  <div class="container text-center">
+    <div id="carousel-gallery" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-gallery" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-gallery" data-slide-to="1"></li>
+      <li data-target="#carousel-gallery" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/falcon1.jpg" style="width: 80%; min-width: 300px;" alt=".1.">
+      </div>
+      <div class="carousel-item">
+        <img src="img/falcon2.jpg" style="width: 80%; min-width: 300px;" alt=".2.">
+      </div>
+      <div class="carousel-item">
+        <img src="img/ss.jpg" style="width: 80%; min-width: 300px;" alt=".3.">
+      </div>
+      <a class="carousel-control-prev" href="#carousel-gallery" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-gallery" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    
+  </div>
+</div>
+
+
+
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-4">
@@ -102,5 +121,4 @@
 </div>
 
 <?php include 'footer.html' ?>
-
 </body>

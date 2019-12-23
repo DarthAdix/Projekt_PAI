@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<?php include 'navbar.php' ?>
+<?php include 'navbar_check.php' ?>
 
 <?php include 'logo-header.html' ?>
 

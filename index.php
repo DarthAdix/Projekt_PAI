@@ -6,6 +6,14 @@
 </head>
 <body>
 
+<?php 
+  include('session.php');
+  if($_SESSION['login_user'] != "none"){
+    header("location:index_logged.php");
+    die();
+  }
+?>
+
 <?php include 'navbar.php' ?>
 
 <?php include 'logo-header.html' ?>

@@ -45,7 +45,7 @@
       </li>    
     </ul>
     <ul class="navbar-nav navbar-right">
-      <li class="nav-item"><a class="nav-link" href="login.php"><span class="fa fa-angle-right"></span> Login</a></li>
+      <li class="nav-item"><a class="nav-link" href="logout.php"><span class="fa fa-angle-right"></span> Logout</a></li>
     </ul>
   </div>  
 </nav>
