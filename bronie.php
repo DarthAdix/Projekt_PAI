@@ -29,20 +29,7 @@
   </div>
 </div>
 
-
-<div id="lightbox">
-  <span id="close-button">&times;</span>
-  <div class="container">
-    <div class="row">
-      <div id="lightbox-image" class="col-md-6">
-        
-      </div>
-      <div id="lightbox-caption" class="col-md-6">
-        
-      </div>
-    </div>
-  </div>
-</div>
+<?php include 'mylightbox.html' ?>
 
 <?php include 'footer.html' ?>
 

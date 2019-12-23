@@ -13,6 +13,7 @@ img.bron:hover {
   display: block;
   width: 100%;
   max-width: 1000px;
+  max-height: 500px;
 }
 
 #lightbox-caption {
@@ -58,10 +59,9 @@ img.bron:hover {
 }
 
 #close-button {
-  position: fixed;
+  position: absolute;
+  right: 20px;
   z-index: 1050;
-  top: 230px;
-  left: 900px;
   color: grey;
   font-size: 40px;
   font-weight: bold;

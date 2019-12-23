@@ -51,6 +51,7 @@ images.forEach(image => {
 		while (lightbox_caption.firstChild) {
 			lightbox_caption.removeChild(lightbox_caption.firstChild)
 		}
+		lightbox_image.appendChild(span)
 		lightbox_image.appendChild(img)
 		lightbox_caption.appendChild(caption)
 	})

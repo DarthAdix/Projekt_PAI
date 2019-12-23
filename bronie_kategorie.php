@@ -11,7 +11,7 @@
           <ul>
           <li> Kaliber: ' . $bron['kaliber'] . '</li>
           <li> Pojemność magazynka: ' . $bron['pojemnosc'] . '</li>
-          </ul>" width=100%><p><b>' . $bron['nazwa'] . '</b>: ' . $bron['opis'] . '</p></div>' . PHP_EOL;
+          </ul>" width=100%><p><b>' . $bron['nazwa'] . '</b></p></div>' . PHP_EOL;
     }
   } else {
     echo 'wyników 0';
