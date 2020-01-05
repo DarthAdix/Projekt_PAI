@@ -32,9 +32,6 @@
               echo 'wyników 0';
             }
             ?>
-          <!-- <a class="dropdown-item" href="#">Pistolety</a>
-          <a class="dropdown-item" href="#">Karabiny</a>
-          <a class="dropdown-item" href="#">Karabiny snajperskie</a> -->
         </ul>
       </li>
       <li class="nav-item">

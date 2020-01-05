@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <title>Strzelnica Gdańsk</title>
+  <title>Strzelnica ORZEŁ - Uzbrojenie</title>
   <?php include 'header.html' ?>
 </head>
 <body>

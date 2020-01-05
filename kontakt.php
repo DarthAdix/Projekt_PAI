@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <title>Strzelnica Gdańsk</title>
+  <title>Strzelnica ORZEŁ - Kontakt</title>
   <?php include 'header.html' ?>
 </head>
 <body>

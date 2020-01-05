@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pl" id="top">
 <head>
-  <title>Strzelnica Gdańsk</title>
+  <title>Strzelnica ORZEŁ - Edycja uzbrojenia</title>
   <?php include 'header.html' ?>
 </head>
 <body>
 
 <?php
-  error_reporting(E_ERROR | E_WARNING | E_PARSE);
+  //error_reporting(E_ERROR | E_WARNING | E_PARSE);
   include("session.php"); 
   if($_SESSION['login_user'] == "none"){
     header("location: index.php");
