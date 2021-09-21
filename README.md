@@ -2,4 +2,4 @@
 
 Academic project - responsive website with CRUD and database communication
 
-PAI (Programowanie Aplikacji Internetowych) - Programming Web Applications
+PAI (Programowanie Aplikacji Internetowych) - Web Applications Programming
